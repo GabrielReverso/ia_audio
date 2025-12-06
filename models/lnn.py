@@ -179,8 +179,8 @@ if __name__ == '__main__':
     print("Treinamento concluído!")
 
     # Salvar modelo
-    SAVE_DIR = 'checkpoints/lnn_optimized'
+    SAVE_DIR = 'checkpoints/lnn'
     os.makedirs(SAVE_DIR, exist_ok=True)
-    save_path = os.path.join(SAVE_DIR, "esc50_lnn_optimized_model.pth")
+    save_path = os.path.join(SAVE_DIR, "esc50_lnn_model.pth")
     torch.save(model.state_dict(), save_path)
     print(f"Modelo salvo em: {save_path}")
