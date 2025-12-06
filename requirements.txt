@@ -1,0 +1,11 @@
+# PyTorch com suporte a CUDA 12.1 (Já incluídos pelo usuário)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.1+cu121
+torchvision==0.17.1+cu121
+torchaudio==2.2.1+cu121
+
+# Dependências do Projeto
+pandas
+numpy==1.26.4
+librosa
+scikit-learn
